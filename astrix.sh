@@ -7,8 +7,6 @@ libllvm-ocaml-dev libomp-dev libomp5 \
 lld lldb llvm-dev llvm-runtime \
 llvm python3-clang -y
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-sudo apt install snap
-sudo snap install rustup --classic;
 sudo apt install cargo -y;
 cargo install wasm-pack
 ./.cargo/bin/rustup target add wasm32-unknown-unknown
