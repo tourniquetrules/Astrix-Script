@@ -1,3 +1,4 @@
+sudo apt update
 sudo apt install curl git build-essential libssl-dev pkg-config protobuf-compiler libprotobuf-dev -y
 sudo apt-get install clang-format clang-tidy \
 clang-tools clang clangd libc++-dev \
