@@ -11,6 +11,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 sudo apt install cargo -y;
 cargo install wasm-pack
 ./.cargo/bin/rustup target add wasm32-unknown-unknown
-git clone https://tourniquetrules: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@github.com/astrix-network/astrix-node
+git clone https://github.com/astrix-network/astrix-node
 cd astrix-node
 cargo run --release --bin astrixd -- --utxoindex
